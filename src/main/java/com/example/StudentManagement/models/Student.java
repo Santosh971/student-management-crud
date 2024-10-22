@@ -1,4 +1,4 @@
-package com.example.EmployeeManagement.models;
+package com.example.StudentManagement.models;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -14,7 +14,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Employee {
+public class Student {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,9 +22,10 @@ public class Employee {
 
     private String name;
 
-    private String department;
-
     private String email;
 
-    private Double salary;
+    private int age;
+
+    private String course;
+
 }

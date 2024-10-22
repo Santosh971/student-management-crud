@@ -1,6 +1,6 @@
 # Project Title
 
-EmployeeManagement
+StudentManagement
 
 ## Description
 
@@ -8,23 +8,31 @@ This is a Spring Boot application for performing CRUD (Create, Read, Update, Del
 
 ## Features
 
-- Create and Save Employee
-- Get Employee By Id and all
-- Update Employee
-- Delete Employee
+- Create and Save Student
+- Get Student By Id and all
+- Update Student
+- Delete Student
 
 ## Technologies Used
 
 - Spring Boot
+- Spring Data JPA
 - Java
 - MySQL
 - Maven
 
 ## Api Endpoints
 
-- http://localhost:8005/api/employee/create - Create and save Employee
-- http://localhost:8005/api/employee/getEmployee/{id} - Get Employee by Id
-- http://localhost:8005/api/employee/getAllEmployees - Get All Employees
-- http://localhost:8005/api/employee/update/{id} - Update Employee by Id
-- http://localhost:8005/api/employee/delete/{id} - Delete Employee by id
-- http://localhost:8005/api/employee/deleteAll - Delete all Employees
+- http://localhost:8005/api/student/create - Create and save Student
+
+- http://localhost:8005/api/student/getStudent/{id} - Get Student by Id
+
+- http://localhost:8005/api/student/getStudentByEmail/{email}- Get Student By Email
+
+- http://localhost:8005/api/student/getAllStudents - Get All Students
+
+- http://localhost:8005/api/student/update/{id} - Update Student by Id
+
+- http://localhost:8005/api/student/delete/{id} - Delete Student by id
+
+- http://localhost:8005/api/student/deleteAll - Delete all Students
